@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   color: #434455;
   background-color: #ffffff;
 }
@@ -56,14 +58,14 @@ address {
 .nav-link {
   font-weight: 500;
   /* font-size: 16px; */
-  /* line-height: 1.5; */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .contacts-link {
   /* font-size: 16px; */
-  /* line-height: 1.5; */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -80,7 +82,7 @@ address {
   background-color: #2e2f42;
 }
 
-.h1 {
+.main-header {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -93,6 +95,7 @@ address {
   cursor: pointer;
   background-color: #4d5ae5;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
 }
@@ -103,7 +106,7 @@ address {
 }
 
 /* Section Features */
-/* .features-h3 {
+/* .features-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -113,7 +116,7 @@ address {
 
 .features-text {
   /* font-size: 16px; */
-  /* line-height: 1.5; */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -123,12 +126,29 @@ address {
   background-color: #f4f4fd;
 }
 
-.team-h3 {
+.team-header {
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
+.team-name {
   text-align: center;
 }
 
 .team-text {
   text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-header {
+  text-transform: capitalize;
+}
+
+.portfolio-text {
+  letter-spacing: 0.02em;
 }
 
 .footer {
@@ -137,4 +157,5 @@ address {
 
 .footer-text {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
