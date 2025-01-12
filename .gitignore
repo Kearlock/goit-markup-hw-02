@@ -4,6 +4,9 @@ secret.md
 origin/
 tmp/
 
+# Figma souce copy
+*.fig
+
 # Logs
 logs
 *.log
